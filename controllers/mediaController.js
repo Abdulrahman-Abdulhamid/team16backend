@@ -2,7 +2,15 @@ const Media = require("../models/mediaModel");
 
 exports.getAllMedia = async (req, res) => {
   try {
-    const media = await Media.find();
+    let query = Media.find(req.query);
+
+    if (req.query.sort) {
+      query = query.sort(req.query.sort);
+    } else {
+      query = query.sort("-rating");
+    }
+
+    const media = await query;
 
     res.status(200).json({
       status: "success",
