@@ -1,0 +1,272 @@
+[
+  {
+    "title": "The Hunger Games",
+    "type": "Movie",
+    "yearReleased": 2012,
+    "rating": 4
+  },
+  {
+    "title": "The Maze Runner",
+    "type": "Movie",
+    "yearReleased": 2014,
+    "rating": 3
+  },
+  {
+    "title": "Shutter Island",
+    "type": "Movie",
+    "yearReleased": 2010,
+    "rating": 4
+  },
+  {
+    "title": "Titanic",
+    "type": "Movie",
+    "yearReleased": 1997,
+    "rating": 4
+  },
+  {
+    "title": "The Blind Side",
+    "type": "Movie",
+    "yearReleased": 2009,
+    "rating": 4
+  },
+  {
+    "title": "The Help",
+    "type": "Movie",
+    "yearReleased": 2011,
+    "rating": 4
+  },
+  {
+    "title": "Hidden Figures",
+    "type": "Movie",
+    "yearReleased": 2017,
+    "rating": 4
+  },
+  {
+    "title": "Black Mirror",
+    "type": "Show",
+    "yearReleased": 2011,
+    "rating": 4
+  },
+  {
+    "title": "Shameless",
+    "type": "Show",
+    "yearReleased": 2011,
+    "rating": 4
+  },
+  {
+    "title": "Gilmore Girls",
+    "type": "Show",
+    "yearReleased": 2000,
+    "rating": 4
+  },
+  {
+    "title": "The Lorax",
+    "type": "Movie",
+    "yearReleased": 2012,
+    "rating": 3
+  },
+  {
+    "title": "New Girl",
+    "type": "Show",
+    "yearReleased": 2011,
+    "rating": 4
+  },
+  {
+    "title": "Modern Family",
+    "type": "Show",
+    "yearReleased": 2009,
+    "rating": 4
+  },
+  {
+    "title": "Friends",
+    "type": "Show",
+    "yearReleased": 1994,
+    "rating": 5
+  },
+  {
+    "title": "The Office",
+    "type": "Show",
+    "yearReleased": 2005,
+    "rating": 5
+  },
+  {
+    "title": "Parks and Recreation",
+    "type": "Show",
+    "yearReleased": 2009,
+    "rating": 4.3
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "type": "Movie",
+    "yearReleased": 1962,
+    "rating": 4
+  },
+  {
+    "title": "Tombstone",
+    "type": "Movie",
+    "yearReleased": 1993,
+    "rating": 4
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "type": "Movie",
+    "yearReleased": 1990,
+    "rating": 4
+  },
+  {
+    "title": "Ponyo",
+    "type": "Movie",
+    "yearReleased": 2009,
+    "rating": 4
+  },
+  {
+    "title": "Survivor",
+    "type": "Show",
+    "yearReleased": 2000,
+    "rating": 4
+  },
+  {
+    "title": "iCarly",
+    "type": "Show",
+    "yearReleased": 2007,
+    "rating": 3
+  },
+  {
+    "title": "The Good Place",
+    "type": "Show",
+    "yearReleased": 2016,
+    "rating": 4
+  },
+  {
+    "title": "21 Jump Street",
+    "type": "Movie",
+    "yearReleased": 2012,
+    "rating": 4
+  },
+  {
+    "title": "Stranger Things",
+    "type": "Show",
+    "yearReleased": 2016,
+    "rating": 4
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "type": "Movie",
+    "yearReleased": 2022,
+    "rating": 4
+  },
+  {
+    "title": "Spongebob Squarepants",
+    "type": "Show",
+    "yearReleased": 1999,
+    "rating": 4
+  },
+  {
+    "title": "Mad Men",
+    "type": "Show",
+    "yearReleased": 2007,
+    "rating": 4
+  },
+  {
+    "title": "Breaking Bad",
+    "type": "Show",
+    "yearReleased": 2008,
+    "rating": 5
+  },
+  {
+    "title": "Game of Thrones",
+    "type": "Show",
+    "yearReleased": 2011,
+    "rating": 5
+  },
+  {
+    "title": "Better Call Saul",
+    "type": "Show",
+    "yearReleased": 2015,
+    "rating": 4
+  },
+  {
+    "title": "House of The Dragon",
+    "type": "Show",
+    "yearReleased": 2022,
+    "rating": 4
+  },
+  {
+    "title": "The Batman",
+    "type": "Movie",
+    "yearReleased": 2022,
+    "rating": 4
+  },
+  {
+    "title": "Batman Begins",
+    "type": "Movie",
+    "yearReleased": 2005,
+    "rating": 4
+  },
+  {
+    "title": "The Dark Knight",
+    "type": "Movie",
+    "yearReleased": 2008,
+    "rating": 5
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "type": "Movie",
+    "yearReleased": 2012,
+    "rating": 4
+  },
+  {
+    "title": "Joker",
+    "type": "Movie",
+    "yearReleased": 2019,
+    "rating": 4
+  },
+  {
+    "title": "The Prestige",
+    "type": "Movie",
+    "yearReleased": 2006,
+    "rating": 4
+  },
+  {
+    "title": "Iron Man",
+    "type": "Movie",
+    "yearReleased": 2008,
+    "rating": 4
+  },
+  {
+    "title": "Iron Man 2",
+    "type": "Movie",
+    "yearReleased": 2010,
+    "rating": 3
+  },
+  {
+    "title": "Iron Man 3",
+    "type": "Movie",
+    "yearReleased": 2013,
+    "rating": 4
+  },
+  {
+    "title": "The Godfather",
+    "type": "Movie",
+    "yearReleased": 1972,
+    "rating": 5
+  },
+  {
+    "title": "Spider-Man",
+    "type": "Movie",
+    "yearReleased": 2002,
+    "rating": 4
+  },
+  {
+    "title": "Spider-Man 2",
+    "type": "Movie",
+    "yearReleased": 2004,
+    "rating": 4
+  },
+  {
+    "title": "Spider-Man 3",
+    "type": "Movie",
+    "yearReleased": 2007,
+    "rating": 3
+  }
+]
