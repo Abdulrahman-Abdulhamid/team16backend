@@ -14,4 +14,8 @@ router
   .patch(userController.updateUser)
   .delete(userController.deleteUser);
 
+router
+  .route('/:id/:watchlist')
+  .get(userController.getUserWatchlist);
+
 module.exports = router;

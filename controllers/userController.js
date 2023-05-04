@@ -1,3 +1,4 @@
+const Media = require('../models/mediaModel');
 const User = require('../models/userModel');
 
 exports.getAllUsers = async (req, res) => {
@@ -27,6 +28,39 @@ exports.getUser = async (req, res) => {
       status: 'success',
       data: {
         user,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
+exports.getUserWatchlist = async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+
+    let watchlist;
+    if (req.params.watchlist === 'toWatch') {
+      watchlist = user.toWatch;
+    } else if (req.params.watchlist === 'watched') {
+      watchlist = user.watched;
+    }
+
+    if (!watchlist) {
+      throw new Error('Invalid watchlist type');
+    }
+
+    const watchedMedia = await Media.find()
+      .where('_id')
+      .in(watchlist);
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        watchedMedia,
       },
     });
   } catch (error) {
