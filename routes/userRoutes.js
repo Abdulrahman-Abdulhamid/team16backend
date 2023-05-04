@@ -18,4 +18,7 @@ router
   .route('/:id/:watchlist')
   .get(userController.getUserWatchlist);
 
+router
+  .route('/:id/:watchlist/:mediaid')
+  .patch(userController.addtoWatchlist);
 module.exports = router;
