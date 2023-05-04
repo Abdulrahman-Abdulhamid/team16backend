@@ -9,10 +9,12 @@ const userSchema = new mongoose.Schema({
   watched: {
     type: [String],
     required: [true, 'user must have a watched list'],
+    default: undefined,
   },
   toWatch: {
     type: [String],
     required: [true, 'user must have a to watch list'],
+    default: undefined,
   },
 });
 
