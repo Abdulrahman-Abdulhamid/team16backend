@@ -89,6 +89,51 @@ exports.createUser = async (req, res) => {
   }
 };
 
+exports.addtoWatchlist = async (req, res) => {
+  try {
+    const watchlist = req.params.watchlist;
+    if (watchlist === 'watched') {
+      await User.updateOne(
+        {
+          _id: req.params.id,
+        },
+        {
+          $addToSet: {
+            watched: req.params.mediaid,
+          },
+        }
+      );
+    } else if (watchlist === 'toWatch') {
+      await User.updateOne(
+        {
+          _id: req.params.id,
+        },
+        {
+          $addToSet: {
+            toWatch: req.params.mediaid,
+          },
+        }
+      );
+    } else {
+      throw new Error('Invalid watchlist');
+    }
+
+    const updatedUser = await User.findById(req.params.id);
+
+    res.status(201).json({
+      status: 'success',
+      data: {
+        user: updatedUser,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
 exports.updateUser = async (req, res) => {
   try {
     const user = await User.findByIdAndUpdate(
