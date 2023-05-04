@@ -1,4 +1,5 @@
 const Media = require('../models/mediaModel');
+const User = require('../models/userModel');
 
 exports.getAllMedia = async (req, res) => {
   try {
@@ -101,6 +102,21 @@ exports.updateMedia = async (req, res) => {
 
 exports.deleteMedia = async (req, res) => {
   try {
+    // UPDATE watchlist for users who have that media in their watchlist
+    await User.updateMany(
+      {
+        $or: [
+          { watched: { $in: [req.params.id] } },
+          { toWatch: { $in: [req.params.id] } },
+        ],
+      },
+      {
+        $pull: {
+          watched: req.params.id,
+          toWatch: req.params.id,
+        },
+      }
+    );
     await Media.findByIdAndDelete(req.params.id);
 
     res.status(204).json({
