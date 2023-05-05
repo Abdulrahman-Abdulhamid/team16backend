@@ -21,21 +21,3 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
-
-/*
-        username: "Ian",
-        watched: [
-            {
-                media: mediaData[findMedia(mediaData, "Mad Men")],
-                review: "",
-                id: mediaData[findMedia(mediaData, "Mad Men")].movieId
-            },
-            {
-                media: mediaData[findMedia(mediaData, "Lawrence of Arabia")],
-                review: "",
-                id: mediaData[findMedia(mediaData, "Lawrence of Arabia")]
-                    .movieId
-            }
-        ],
-        toWatch: [mediaData[findMedia(mediaData, "Mad Men")]]
-*/
