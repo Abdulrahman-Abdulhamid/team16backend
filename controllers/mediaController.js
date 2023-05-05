@@ -1,28 +1,18 @@
 const Media = require('../models/mediaModel');
 const User = require('../models/userModel');
+const APIFeatures = require('../utils/apiFeatures');
 
 exports.getAllMedia = async (req, res) => {
   try {
-    // 1) FILTERING
-    let query = Media.find(req.query);
+    const features = new APIFeatures(
+      Media.find(),
+      req.query
+    )
+      .filter()
+      .sort()
+      .limitFields();
 
-    // 2) Sorting
-    if (req.query.sort) {
-      query = query.sort(req.query.sort);
-    } else {
-      query = query.sort('-rating');
-    }
-
-    // 3) Limiting Fields - NOT WORKING
-    // if (req.query.fields) {
-    //   const fields = req.query.fields.split(',').join(' ');
-    //   console.log(fields);
-    //   query = query.select(fields);
-    // } else {
-    //   query = query.select('-__v');
-    // }
-
-    const media = await query;
+    const media = await features.query;
 
     res.status(200).json({
       status: 'success',

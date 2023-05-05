@@ -1,56 +1,23 @@
 const Review = require('../models/reviewsModel');
+const APIFeatures = require('../utils/apiFeatures');
 
 exports.getAllReviews = async (req, res) => {
   try {
-    const reviews = await Review.find();
+    const features = new APIFeatures(
+      Review.find(),
+      req.query
+    )
+      .filter()
+      .sort()
+      .limitFields();
+
+    const reviews = await features.query;
 
     res.status(200).json({
       status: 'success',
       results: reviews.length,
       data: {
         reviews,
-      },
-    });
-  } catch (error) {
-    res.status(400).json({
-      status: 'fail',
-      message: error,
-    });
-  }
-};
-
-exports.getMediaReviews = async (req, res) => {
-  try {
-    const mediaReviews = await Review.find({
-      mediaId: req.params.mediaid,
-    });
-
-    res.status(200).json({
-      status: 'success',
-      results: mediaReviews.length,
-      data: {
-        mediaReviews,
-      },
-    });
-  } catch (error) {
-    res.status(400).json({
-      status: 'fail',
-      message: error,
-    });
-  }
-};
-
-exports.getUserReviews = async (req, res) => {
-  try {
-    const userReviews = await Review.find({
-      userId: req.params.userid,
-    });
-
-    res.status(200).json({
-      status: 'success',
-      results: userReviews.length,
-      data: {
-        userReviews,
       },
     });
   } catch (error) {
