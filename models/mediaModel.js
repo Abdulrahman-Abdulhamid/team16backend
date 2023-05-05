@@ -1,19 +1,19 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const mediaSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: [true, "Media must have a title"],
-    unique: [true, "Media must have a unique title"],
+    required: [true, 'Media must have a title'],
+    unique: [true, 'Media must have a unique title'],
     trim: true,
   },
   type: {
     type: String,
-    required: [true, "Media must have a type"],
+    required: [true, 'Media must have a type'],
   },
   yearReleased: {
     type: Number,
-    required: [true, "Media must have a release year"],
+    required: [true, 'Media must have a release year'],
   },
   rating: {
     type: Number,
@@ -21,7 +21,7 @@ const mediaSchema = new mongoose.Schema({
   },
 });
 
-const Media = mongoose.model("Media", mediaSchema);
+const Media = mongoose.model('Media', mediaSchema);
 
 module.exports = Media;
 
