@@ -19,6 +19,11 @@ const mediaSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  image: {
+    type: String,
+    unique: [true, 'Media must have a unique image'],
+    required: [true, 'Media must have an image'],
+  },
 });
 
 const Media = mongoose.model('Media', mediaSchema);
