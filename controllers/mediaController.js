@@ -47,6 +47,31 @@ exports.getMedia = async (req, res) => {
   }
 };
 
+exports.getMediaByGenre = async (req, res) => {
+  try {
+    const genreType = req.params.genreType.replace(
+      '-',
+      ' '
+    );
+
+    const media = await Media.find({
+      genres: { $in: genreType },
+    });
+    res.status(201).json({
+      status: 'success',
+      data: {
+        results: media.length,
+        media,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
 exports.createMedia = async (req, res) => {
   try {
     const newMedia = await Media.create(req.body);
