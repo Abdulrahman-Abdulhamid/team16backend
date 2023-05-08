@@ -3,624 +3,728 @@
     "title": "2001 A Space Odyssey",
     "type": "Movie",
     "yearReleased": 1968,
-    "rating": 5
+    "rating": 5,
+    "image": "2001-a-space-odyssey.png"
   },
   {
     "title": "Apocalypse Now",
     "type": "Movie",
     "yearReleased": 1979,
-    "rating": 5
+    "rating": 5,
+    "image": "apocalypse-now.png"
   },
   {
     "title": "Citizen Kane",
     "type": "Movie",
     "yearReleased": 1941,
-    "rating": 5
+    "rating": 5,
+    "image": "citizen-kane.png"
   },
   {
     "title": "Titanic",
     "type": "Movie",
     "yearReleased": 1997,
-    "rating": 4
+    "rating": 4,
+    "image": "titanic.png"
   },
   {
     "title": "The Blind Side",
     "type": "Movie",
     "yearReleased": 2009,
-    "rating": 3
+    "rating": 3,
+    "image": "the-blind-side.png"
   },
   {
     "title": "Black Mirror",
     "type": "Show",
     "yearReleased": 2011,
-    "rating": 4
+    "rating": 4,
+    "image": "black-mirror.png"
   },
   {
     "title": "Animal House",
     "type": "Movie",
     "yearReleased": 1978,
-    "rating": 4
+    "rating": 4,
+    "image": "animal-house.png"
   },
   {
     "title": "Caddyshack",
     "type": "Movie",
     "yearReleased": 1980,
-    "rating": 3
+    "rating": 3,
+    "image": "caddyshack.png"
   },
   {
     "title": "Easy Rider",
     "type": "Movie",
     "yearReleased": 1969,
-    "rating": 4
+    "rating": 4,
+    "image": "easy-rider.png"
   },
   {
     "title": "Elephant",
     "type": "Movie",
     "yearReleased": 2003,
-    "rating": 3
+    "rating": 3,
+    "image": "elephant.png"
   },
   {
     "title": "Gilmore Girls",
     "type": "Show",
     "yearReleased": 2000,
-    "rating": 4
+    "rating": 4,
+    "image": "gilmore-girls.png"
   },
   {
     "title": "Eyes Wide Shut",
     "type": "Movie",
     "yearReleased": 1999,
-    "rating": 4
+    "rating": 4,
+    "image": "eyes-wide-shut.png"
   },
   {
     "title": "Friends",
     "type": "Show",
     "yearReleased": 1994,
-    "rating": 4
+    "rating": 4,
+    "image": "friends.png"
   },
   {
     "title": "Full Metal Jacket",
     "type": "Movie",
     "yearReleased": 1987,
-    "rating": 5
+    "rating": 5,
+    "image": "full-metal-jacket.png"
   },
   {
     "title": "Fight Club",
     "type": "Movie",
     "yearReleased": 1999,
-    "rating": 4
+    "rating": 4,
+    "image": "fight-club.png"
   },
   {
     "title": "Drive",
     "type": "Movie",
     "yearReleased": 2011,
-    "rating": 3
+    "rating": 3,
+    "image": "drive.png"
   },
   {
     "title": "The Office",
     "type": "Show",
     "yearReleased": 2005,
-    "rating": 5
+    "rating": 5,
+    "image": "the-office.png"
   },
   {
     "title": "Parks and Recreation",
     "type": "Show",
     "yearReleased": 2009,
-    "rating": 3
+    "rating": 3,
+    "image": "parks-and-recreation.png"
   },
   {
     "title": "The Breakfast Club",
     "type": "Movie",
     "yearReleased": 1985,
-    "rating": 4
+    "rating": 4,
+    "image": "the-breakfast-club.png"
   },
   {
     "title": "Beetlejuice",
     "type": "Movie",
     "yearReleased": 1988,
-    "rating": 4
+    "rating": 4,
+    "image": "beetlejuice.png"
   },
   {
     "title": "The Lorax",
     "type": "Movie",
     "yearReleased": 2012,
-    "rating": 3
+    "rating": 3,
+    "image": "the-lorax.png"
   },
   {
     "title": "Keeping Up With The Kardashians",
     "type": "Show",
     "yearReleased": 2007,
-    "rating": 3
+    "rating": 3,
+    "image": "keeping-up-with-the-kardashians.png"
   },
   {
     "title": "The Help",
     "type": "Movie",
     "yearReleased": 2011,
-    "rating": 3
+    "rating": 3,
+    "image": "the-help.png"
   },
   {
     "title": "Hidden Figures",
     "type": "Movie",
     "yearReleased": 2017,
-    "rating": 3
+    "rating": 3,
+    "image": "hidden-figures.png"
   },
   {
     "title": "The Hunger Games",
     "type": "Movie",
     "yearReleased": 2012,
-    "rating": 4
+    "rating": 4,
+    "image": "the-hunger-games.png"
   },
   {
     "title": "The Hunger Games: Catching Fire",
     "type": "Movie",
     "yearReleased": 2013,
-    "rating": 4
+    "rating": 4,
+    "image": "the-hunger-games:-catching-fire.png"
   },
   {
     "title": "Lawrence of Arabia",
     "type": "Movie",
     "yearReleased": 1962,
-    "rating": 5
+    "rating": 5,
+    "image": "lawrence-of-arabia.png"
   },
   {
     "title": "Doctor Zhivago",
     "type": "Movie",
     "yearReleased": 1965,
-    "rating": 4
+    "rating": 4,
+    "image": "doctor-zhivago.png"
   },
   {
     "title": "Tombstone",
     "type": "Movie",
     "yearReleased": 1993,
-    "rating": 4
+    "rating": 4,
+    "image": "tombstone.png"
   },
   {
     "title": "Resevoir Dogs",
     "type": "Movie",
     "yearReleased": 1992,
-    "rating": 4
+    "rating": 4,
+    "image": "resevoir-dogs.png"
   },
   {
     "title": "Pulp Fiction",
     "type": "Movie",
     "yearReleased": 1994,
-    "rating": 4
+    "rating": 4,
+    "image": "pulp-fiction.png"
   },
   {
     "title": "Se7en",
     "type": "Movie",
     "yearReleased": 1995,
-    "rating": 4
+    "rating": 4,
+    "image": "se7en.png"
   },
   {
     "title": "Blade Runner",
     "type": "Movie",
     "yearReleased": 1982,
-    "rating": 4
+    "rating": 4,
+    "image": "blade-runner.png"
   },
   {
     "title": "Blade Runner 2049",
     "type": "Movie",
     "yearReleased": 2017,
-    "rating": 3
+    "rating": 3,
+    "image": "blade-runner-2049.png"
   },
   {
     "title": "Fargo",
     "type": "Movie",
     "yearReleased": 1996,
-    "rating": 4
+    "rating": 4,
+    "image": "fargo.png"
   },
   {
     "title": "No Country for Old Men",
     "type": "Movie",
     "yearReleased": 2007,
-    "rating": 4
+    "rating": 4,
+    "image": "no-country-for-old-men.png"
   },
   {
     "title": "The Matrix",
     "type": "Movie",
     "yearReleased": 1999,
-    "rating": 4
+    "rating": 4,
+    "image": "the-matrix.png"
   },
   {
     "title": "The Matrix Reloaded",
     "type": "Movie",
     "yearReleased": 2003,
-    "rating": 3
+    "rating": 3,
+    "image": "the-matrix-reloaded.png"
   },
   {
     "title": "The Matrix Revolutions",
     "type": "Movie",
     "yearReleased": 2003,
-    "rating": 2
+    "rating": 2,
+    "image": "the-matrix-revolutions.png"
   },
   {
     "title": "The Matrix Resurrections",
     "type": "Movie",
     "yearReleased": 2021,
-    "rating": 2
+    "rating": 2,
+    "image": "the-matrix-resurrections.png"
   },
   {
     "title": "The Maze Runner",
     "type": "Movie",
     "yearReleased": 2014,
-    "rating": 3
+    "rating": 3,
+    "image": "the-maze-runner.png"
   },
   {
     "title": "My Own Private Idaho",
     "type": "Movie",
     "yearReleased": 1991,
-    "rating": 3
+    "rating": 3,
+    "image": "my-own-private-idaho.png"
   },
   {
     "title": "My Neighbor Totoro",
     "type": "Movie",
     "yearReleased": 1990,
-    "rating": 4
+    "rating": 4,
+    "image": "my-neighbor-totoro.png"
   },
   {
     "title": "Ponyo",
     "type": "Movie",
     "yearReleased": 2009,
-    "rating": 4
+    "rating": 4,
+    "image": "ponyo.png"
   },
   {
     "title": "Nocturnal Animals",
     "type": "Movie",
     "yearReleased": 2016,
-    "rating": 4
+    "rating": 4,
+    "image": "nocturnal-animals.png"
   },
   {
     "title": "Dancer in the Dark",
     "type": "Movie",
     "yearReleased": 2000,
-    "rating": 4
+    "rating": 4,
+    "image": "dancer-in-the-dark.png"
   },
   {
     "title": "Donnie Darko",
     "type": "Movie",
     "yearReleased": 2001,
-    "rating": 5
+    "rating": 5,
+    "image": "donnie-darko.png"
   },
   {
     "title": "Southland Tales",
     "type": "Movie",
     "yearReleased": 2006,
-    "rating": 2
+    "rating": 2,
+    "image": "southland-tales.png"
   },
   {
     "title": "The Shawshank Redemption",
     "type": "Movie",
     "yearReleased": 1994,
-    "rating": 4
+    "rating": 4,
+    "image": "the-shawshank-redemption.png"
   },
   {
     "title": "Gone With the Wind",
     "type": "Movie",
     "yearReleased": 1939,
-    "rating": 5
+    "rating": 5,
+    "image": "gone-with-the-wind.png"
   },
   {
     "title": "Ben-Hur",
     "type": "Movie",
     "yearReleased": 1959,
-    "rating": 5
+    "rating": 5,
+    "image": "ben-hur.png"
   },
   {
     "title": "The Last Temptation of Christ",
     "type": "Movie",
     "yearReleased": 1988,
-    "rating": 4
+    "rating": 4,
+    "image": "the-last-temptation-of-christ.png"
   },
   {
     "title": "Superbad",
     "type": "Movie",
     "yearReleased": 2007,
-    "rating": 4
+    "rating": 4,
+    "image": "superbad.png"
   },
   {
     "title": "Modern Family",
     "type": "Show",
     "yearReleased": 2009,
-    "rating": 3
+    "rating": 3,
+    "image": "modern-family.png"
   },
   {
     "title": "Mr. Robot",
     "type": "Show",
     "yearReleased": 2015,
-    "rating": 3
+    "rating": 3,
+    "image": "mr.-robot.png"
   },
   {
     "title": "New Girl",
     "type": "Show",
     "yearReleased": 2011,
-    "rating": 3
+    "rating": 3,
+    "image": "new-girl.png"
   },
   {
     "title": "Survivor",
     "type": "Show",
     "yearReleased": 2000,
-    "rating": 3
+    "rating": 3,
+    "image": "survivor.png"
   },
   {
     "title": "Shark Tank",
     "type": "Show",
     "yearReleased": 2009,
-    "rating": 3
+    "rating": 3,
+    "image": "shark-tank.png"
   },
   {
     "title": "Shameless",
     "type": "Show",
     "yearReleased": 2011,
-    "rating": 3
+    "rating": 3,
+    "image": "shameless.png"
   },
   {
     "title": "iCarly",
     "type": "Show",
     "yearReleased": 2007,
-    "rating": 3
+    "rating": 3,
+    "image": "icarly.png"
   },
   {
     "title": "The Good Place",
     "type": "Show",
     "yearReleased": 2016,
-    "rating": 4
+    "rating": 4,
+    "image": "the-good-place.png"
   },
   {
     "title": "21 Jump Street",
     "type": "Movie",
     "yearReleased": 2012,
-    "rating": 4
+    "rating": 4,
+    "image": "21-jump-street.png"
   },
   {
-    "title": "The Super Mario Bros. Movie",
+    "title": "The Super Mario Bros Movie",
     "type": "Movie",
     "yearReleased": 2023,
-    "rating": 4
+    "rating": 4,
+    "image": "the-super-mario-bros-movie.png"
   },
   {
     "title": "Stranger Things",
     "type": "Show",
     "yearReleased": 2016,
-    "rating": 4
+    "rating": 4,
+    "image": "stranger-things.png"
   },
   {
     "title": "American Psycho",
     "type": "Movie",
     "yearReleased": 2000,
-    "rating": 4
+    "rating": 4,
+    "image": "american-psycho.png"
   },
   {
     "title": "Buffalo '66",
     "type": "Movie",
     "yearReleased": 1998,
-    "rating": 3
+    "rating": 3,
+    "image": "buffalo-'66.png"
   },
   {
     "title": "Scream",
     "type": "Movie",
     "yearReleased": 1996,
-    "rating": 4
+    "rating": 4,
+    "image": "scream.png"
   },
   {
     "title": "Scream 2",
     "type": "Movie",
     "yearReleased": 1997,
-    "rating": 4
+    "rating": 4,
+    "image": "scream-2.png"
   },
   {
     "title": "Where the Crawdads Sing",
     "type": "Movie",
     "yearReleased": 2022,
-    "rating": 4
+    "rating": 4,
+    "image": "where-the-crawdads-sing.png"
   },
   {
     "title": "Mulholland Drive",
     "type": "Movie",
     "yearReleased": 2001,
-    "rating": 3
+    "rating": 3,
+    "image": "mulholland-drive.png"
   },
   {
     "title": "Spongebob Squarepants",
     "type": "Show",
     "yearReleased": 1999,
-    "rating": 4
+    "rating": 4,
+    "image": "spongebob-squarepants.png"
   },
   {
     "title": "Twin Peaks",
     "type": "Show",
     "yearReleased": 1990,
-    "rating": 5
+    "rating": 5,
+    "image": "twin-peaks.png"
   },
   {
     "title": "Mad Men",
     "type": "Show",
     "yearReleased": 2007,
-    "rating": 4
+    "rating": 4,
+    "image": "mad-men.png"
   },
   {
     "title": "Breaking Bad",
     "type": "Show",
     "yearReleased": 2008,
-    "rating": 5
+    "rating": 5,
+    "image": "breaking-bad.png"
   },
   {
     "title": "Better Call Saul",
     "type": "Show",
     "yearReleased": 2015,
-    "rating": 4
+    "rating": 4,
+    "image": "better-call-saul.png"
   },
   {
     "title": "Game of Thrones",
     "type": "Show",
     "yearReleased": 2011,
-    "rating": 5
+    "rating": 5,
+    "image": "game-of-thrones.png"
   },
   {
     "title": "House of The Dragon",
     "type": "Show",
     "yearReleased": 2022,
-    "rating": 3
+    "rating": 3,
+    "image": "house-of-the-dragon.png"
   },
   {
     "title": "Succession",
     "type": "Show",
     "yearReleased": 2018,
-    "rating": 4
+    "rating": 4,
+    "image": "succession.png"
   },
   {
     "title": "The Scary of Sixty First",
     "type": "Movie",
     "yearReleased": 2020,
-    "rating": 3
+    "rating": 3,
+    "image": "the-scary-of-sixty-first.png"
   },
   {
     "title": "Batman Begins",
     "type": "Movie",
     "yearReleased": 2005,
-    "rating": 3
+    "rating": 3,
+    "image": "batman-begins.png"
   },
   {
     "title": "The Dark Knight",
     "type": "Movie",
     "yearReleased": 2008,
-    "rating": 5
+    "rating": 5,
+    "image": "the-dark-knight.png"
   },
   {
     "title": "The Dark Knight Rises",
     "type": "Movie",
     "yearReleased": 2012,
-    "rating": 4
+    "rating": 4,
+    "image": "the-dark-knight-rises.png"
   },
   {
     "title": "The Batman",
     "type": "Movie",
     "yearReleased": 2022,
-    "rating": 4
+    "rating": 4,
+    "image": "the-batman.png"
   },
   {
     "title": "Joker",
     "type": "Movie",
     "yearReleased": 2019,
-    "rating": 4
+    "rating": 4,
+    "image": "joker.png"
   },
   {
     "title": "The Prestige",
     "type": "Movie",
     "yearReleased": 2006,
-    "rating": 4
+    "rating": 4,
+    "image": "the-prestige.png"
   },
   {
     "title": "There Will Be Blood",
     "type": "Movie",
     "yearReleased": 2007,
-    "rating": 4
+    "rating": 4,
+    "image": "there-will-be-blood.png"
   },
   {
     "title": "Iron Man",
     "type": "Movie",
     "yearReleased": 2008,
-    "rating": 4
+    "rating": 4,
+    "image": "iron-man.png"
   },
   {
     "title": "Iron Man 2",
     "type": "Movie",
     "yearReleased": 2010,
-    "rating": 2
+    "rating": 2,
+    "image": "iron-man-2.png"
   },
   {
     "title": "Iron Man 3",
     "type": "Movie",
     "yearReleased": 2013,
-    "rating": 3
+    "rating": 3,
+    "image": "iron-man-3.png"
   },
   {
     "title": "The Wolf of Wall Street",
     "type": "Movie",
     "yearReleased": 2013,
-    "rating": 4
+    "rating": 4,
+    "image": "the-wolf-of-wall-street.png"
   },
   {
     "title": "Shutter Island",
     "type": "Movie",
     "yearReleased": 2010,
-    "rating": 4
+    "rating": 4,
+    "image": "shutter-island.png"
   },
   {
     "title": "The Silence of the Lambs",
     "type": "Movie",
     "yearReleased": 1991,
-    "rating": 5
+    "rating": 5,
+    "image": "the-silence-of-the-lambs.png"
   },
   {
     "title": "Taxi Driver",
     "type": "Movie",
     "yearReleased": 1976,
-    "rating": 5
+    "rating": 5,
+    "image": "taxi-driver.png"
   },
   {
     "title": "The Godfather",
     "type": "Movie",
     "yearReleased": 1972,
-    "rating": 5
+    "rating": 5,
+    "image": "the-godfather.png"
   },
   {
     "title": "The Godfather Part II",
     "type": "Movie",
     "yearReleased": 1974,
-    "rating": 5
+    "rating": 5,
+    "image": "the-godfather-part-ii.png"
   },
   {
     "title": "The Godfather Part III",
     "type": "Movie",
     "yearReleased": 1990,
-    "rating": 4
+    "rating": 4,
+    "image": "the-godfather-part-iii.png"
   },
   {
     "title": "Scarface",
     "type": "Movie",
     "yearReleased": 1983,
-    "rating": 5
+    "rating": 5,
+    "image": "scarface.png"
   },
   {
     "title": "Spider-Man",
     "type": "Movie",
     "yearReleased": 2002,
-    "rating": 4
+    "rating": 4,
+    "image": "spider-man.png"
   },
   {
     "title": "Spider-Man 2",
     "type": "Movie",
     "yearReleased": 2004,
-    "rating": 4
+    "rating": 4,
+    "image": "spider-man-2.png"
   },
   {
     "title": "Spider-Man 3",
     "type": "Movie",
     "yearReleased": 2007,
-    "rating": 3
+    "rating": 3,
+    "image": "spider-man-3.png"
   },
   {
     "title": "The Virgin Suicides",
     "type": "Movie",
     "yearReleased": 1999,
-    "rating": 4
+    "rating": 4,
+    "image": "the-virgin-suicides.png"
   },
   {
     "title": "Vision Quest",
     "type": "Movie",
     "yearReleased": 1985,
-    "rating": 4
+    "rating": 4,
+    "image": "vision-quest.png"
   },
   {
     "title": "Westworld",
     "type": "Show",
     "yearReleased": 2016,
-    "rating": 4
+    "rating": 4,
+    "image": "westworld.png"
   },
   {
     "title": "Yellowstone",
     "type": "Show",
     "yearReleased": 2018,
-    "rating": 4
+    "rating": 4,
+    "image": "yellowstone.png"
   }
 ]
