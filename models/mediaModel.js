@@ -24,6 +24,11 @@ const mediaSchema = new mongoose.Schema({
     unique: [true, 'Media must have a unique image'],
     required: [true, 'Media must have an image'],
   },
+  genres: {
+    type: [String],
+    required: [true, 'Media must have a genres list'],
+    default: undefined,
+  },
 });
 
 const Media = mongoose.model('Media', mediaSchema);
