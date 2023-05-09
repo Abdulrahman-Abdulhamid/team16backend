@@ -2,26 +2,36 @@
   {
     "username": "Ian",
     "watched": [],
-    "toWatch": []
+    "role": "Default"
   },
   {
     "username": "Joey",
     "watched": [],
-    "toWatch": []
+    "role": "Default"
   },
   {
     "username": "Bood",
     "watched": [],
-    "toWatch": []
+    "role": "Default"
   },
   {
-    "username": "Talhah",
+    "username": "Talha",
     "watched": [],
-    "toWatch": []
+    "role": "Default"
   },
   {
     "username": "Mercedes",
     "watched": [],
-    "toWatch": []
+    "role": "Default"
+  },
+  {
+    "username": "Super",
+    "watched": [],
+    "role": "Super"
+  },
+  {
+    "username": "Admin",
+    "watched": [],
+    "role": "Admin"
   }
 ]
