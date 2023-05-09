@@ -16,7 +16,7 @@ const addMediaField = (mediaList) => {
   return mediaList.map((media) => {
     return {
       ...media,
-      image: `${slugifyTitle(media.title)}.png`,
+      image: `${slugifyTitle(media.title)}.jpg`,
     };
   });
 };

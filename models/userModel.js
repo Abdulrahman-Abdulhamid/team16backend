@@ -11,6 +11,11 @@ const userSchema = new mongoose.Schema({
     required: [true, 'user must have a watched list'],
     default: undefined,
   },
+  toWatch: {
+    type: [String],
+    required: [true, 'user must have a toWatch list'],
+    default: undefined,
+  },
   role: {
     type: String,
     default: 'Default',

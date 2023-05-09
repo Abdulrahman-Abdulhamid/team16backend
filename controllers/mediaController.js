@@ -1,4 +1,5 @@
 const Media = require('../models/mediaModel');
+const Review = require('../models/reviewsModel');
 const User = require('../models/userModel');
 const APIFeatures = require('../utils/apiFeatures');
 
@@ -132,6 +133,9 @@ exports.deleteMedia = async (req, res) => {
         },
       }
     );
+
+    await Review.deleteMany({ mediaId: req.params.id });
+
     await Media.findByIdAndDelete(req.params.id);
 
     res.status(204).json({
