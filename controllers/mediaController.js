@@ -11,7 +11,8 @@ exports.getAllMedia = async (req, res) => {
     )
       .filter()
       .sort()
-      .limitFields();
+      .limitFields()
+      .search();
 
     const media = await features.query;
 

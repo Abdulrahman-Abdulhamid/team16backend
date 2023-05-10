@@ -1,3 +1,5 @@
+const { default: slugify } = require('slugify');
+
 class APIFeatures {
   constructor(query, queryString) {
     this.query = query;
@@ -11,6 +13,7 @@ class APIFeatures {
       'sort',
       'limit',
       'fields',
+      'search',
     ];
     excludedFields.forEach((el) => delete queryObj[el]);
 
@@ -40,6 +43,19 @@ class APIFeatures {
       this.query = this.query.select(fields);
     } else {
       this.query = this.query.select('-__v');
+    }
+
+    return this;
+  }
+
+  search() {
+    if (this.queryString.search) {
+      const searchText = slugify(
+        this.queryString.search.replace(' ', '')
+      );
+      this.query = this.query.find({
+        $text: { $search: searchText },
+      });
     }
 
     return this;

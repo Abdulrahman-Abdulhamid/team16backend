@@ -31,6 +31,8 @@ const mediaSchema = new mongoose.Schema({
   },
 });
 
+mediaSchema.index({ image: 'text' });
+
 const Media = mongoose.model('Media', mediaSchema);
 
 module.exports = Media;
