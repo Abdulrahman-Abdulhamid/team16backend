@@ -19,9 +19,7 @@ exports.getAllMedia = async (req, res) => {
     res.status(200).json({
       status: 'success',
       results: media.length,
-      data: {
-        media,
-      },
+      data: media,
     });
   } catch (error) {
     res.status(400).json({
@@ -37,9 +35,7 @@ exports.getMedia = async (req, res) => {
 
     res.status(200).json({
       status: 'success',
-      data: {
-        media,
-      },
+      data: media,
     });
   } catch (error) {
     res.status(400).json({
