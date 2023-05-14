@@ -1,5 +1,36 @@
 const mongoose = require('mongoose');
 
+const personalMediaSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: [true, 'Media must have a title'],
+    unique: [true, 'Media must have a unique title'],
+    trim: true,
+  },
+  type: {
+    type: String,
+    required: [true, 'Media must have a type'],
+  },
+  yearReleased: {
+    type: Number,
+    required: [true, 'Media must have a release year'],
+  },
+  rating: {
+    type: Number,
+    default: 0,
+  },
+  image: {
+    type: String,
+    unique: [true, 'Media must have a unique image'],
+    required: [true, 'Media must have an image'],
+  },
+  genres: {
+    type: [String],
+    required: [true, 'Media must have a genres list'],
+    default: undefined,
+  },
+});
+
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
@@ -7,12 +38,12 @@ const userSchema = new mongoose.Schema({
     unique: [true, 'username must be unique'],
   },
   watched: {
-    type: [String],
+    type: [personalMediaSchema],
     required: [true, 'user must have a watched list'],
     default: undefined,
   },
   toWatch: {
-    type: [String],
+    type: [personalMediaSchema],
     required: [true, 'user must have a toWatch list'],
     default: undefined,
   },
@@ -23,5 +54,4 @@ const userSchema = new mongoose.Schema({
 });
 
 const User = mongoose.model('User', userSchema);
-
 module.exports = User;

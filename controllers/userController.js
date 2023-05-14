@@ -67,6 +67,25 @@ exports.getUserWatchlist = async (req, res) => {
   }
 };
 
+exports.getUserWatchlists = async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        watched: user.watched,
+        toWatch: user.toWatch,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
 exports.createUser = async (req, res) => {
   try {
     const newUser = await User.create(req.body);
@@ -85,41 +104,52 @@ exports.createUser = async (req, res) => {
   }
 };
 
-exports.addtoWatchlist = async (req, res) => {
+exports.updateUserWatched = async (req, res) => {
   try {
-    const watchlist = req.params.watchlist;
-    if (watchlist === 'watched') {
-      await User.updateOne(
-        {
-          _id: req.params.id,
-        },
-        {
-          $addToSet: {
-            watched: req.params.mediaid,
-          },
-        }
-      );
-    } else if (watchlist === 'toWatch') {
-      await User.updateOne(
-        {
-          _id: req.params.id,
-        },
-        {
-          $addToSet: {
-            toWatch: req.params.mediaid,
-          },
-        }
-      );
-    } else {
-      throw new Error('Invalid watchlist');
-    }
-
-    const updatedUser = await User.findById(req.params.id);
+    const updateduser = await User.findOneAndUpdate(
+      {
+        _id: req.params.id,
+      },
+      {
+        watched: req.body,
+      }
+    );
 
     res.status(201).json({
       status: 'success',
       data: {
-        user: updatedUser,
+        updateduser,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
+exports.addtoWatched = async (req, res) => {
+  try {
+    const media = await Media.findById(req.params.mediaid);
+
+    const updateduser = await User.findOneAndUpdate(
+      {
+        _id: req.params.id,
+      },
+      {
+        $push: {
+          watched: {
+            ...media,
+          },
+        },
+      }
+    );
+
+    res.status(201).json({
+      status: 'success',
+      data: {
+        updateduser,
       },
     });
   } catch (error) {
