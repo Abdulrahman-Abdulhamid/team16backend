@@ -21,7 +21,6 @@ const personalMediaSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    unique: [true, 'Media must have a unique image'],
     required: [true, 'Media must have an image'],
   },
   genres: {

@@ -21,7 +21,6 @@ const mediaSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    unique: [true, 'Media must have a unique image'],
     required: [true, 'Media must have an image'],
   },
   genres: {
@@ -31,7 +30,7 @@ const mediaSchema = new mongoose.Schema({
   },
 });
 
-mediaSchema.index({ image: 'text' });
+// mediaSchema.index({ image: 'text' });
 
 const Media = mongoose.model('Media', mediaSchema);
 
