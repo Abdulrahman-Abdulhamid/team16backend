@@ -45,6 +45,20 @@ exports.getMedia = async (req, res) => {
   }
 };
 
+exports.getMediaByImage = async (req, res) => {
+  try {
+    res.status(200).json({
+      status: 'success',
+      message: 'in process',
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'fail',
+      message: error,
+    });
+  }
+};
+
 exports.getMediaByGenre = async (req, res) => {
   try {
     const genreType = req.params.genreType.replace(
@@ -116,22 +130,27 @@ exports.updateMedia = async (req, res) => {
 exports.deleteMedia = async (req, res) => {
   try {
     // UPDATE watchlist for users who have that media in their watchlist
-    await User.updateMany(
-      {
-        $or: [
-          { watched: { $in: [req.params.id] } },
-          { toWatch: { $in: [req.params.id] } },
-        ],
-      },
-      {
-        $pull: {
-          watched: req.params.id,
-          toWatch: req.params.id,
-        },
-      }
-    );
-
-    await Review.deleteMany({ mediaId: req.params.id });
+    // await User.updateMany(
+    //   {
+    //     $or: [
+    //       { watched: { _id: req.params.id } },
+    //       { toWatch: { _id: req.params.id } },
+    //     ],
+    //   },
+    //   {
+    //     $pull: {
+    //       watched: { _id: req.params.id },
+    //       toWatch: { _id: req.params.id },
+    //     },
+    //   }
+    // );
+    // const users = await User.find({
+    //   $or: [
+    //     { watched: { _id: req.params.id } },
+    //     { toWatch: { _id: req.params.id } },
+    //   ],
+    // });
+    // console.log(users);
 
     await Media.findByIdAndDelete(req.params.id);
 
@@ -146,3 +165,17 @@ exports.deleteMedia = async (req, res) => {
     });
   }
 };
+
+/*
+        "_id": "645b4ac5f245634dd184e296",
+        "title": "Apocalypse Now",
+        "type": "Movie",
+        "yearReleased": 1979,
+        "rating": 5,
+        "image": "apocalypse-now.jpg",
+        "genres": [
+            "Adventure",
+            "History",
+            "Thriller"
+        ]
+*/

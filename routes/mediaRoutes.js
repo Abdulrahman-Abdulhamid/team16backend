@@ -13,6 +13,10 @@ router
   .get(mediaController.getMediaByGenre);
 
 router
+  .route('/title/:title')
+  .get(mediaController.getMediaByImage);
+
+router
   .route('/:id')
   .get(mediaController.getMedia)
   .patch(mediaController.updateMedia)
