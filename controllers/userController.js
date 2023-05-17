@@ -70,7 +70,6 @@ exports.getUserWatchlist = async (req, res) => {
 exports.getUserWatchlists = async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
-
     res.status(200).json({
       status: 'success',
       data: {
