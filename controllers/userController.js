@@ -70,11 +70,23 @@ exports.getUserWatchlist = async (req, res) => {
 exports.getUserWatchlists = async (req, res) => {
   try {
     const user = await User.findById(req.params.id);
+
+    let watched = [...user.watched];
+    let toWatch = [...user.toWatch];
+
+    if (req.query.sort === '-rating') {
+      watched.sort((a, b) => a.rating - b.rating);
+      toWatch.sort((a, b) => a.rating - b.rating);
+    } else if (req.query.sort === 'rating') {
+      watched.sort((a, b) => b.rating - a.rating);
+      toWatch.sort((a, b) => b.rating - a.rating);
+    }
+
     res.status(200).json({
       status: 'success',
       data: {
-        watched: user.watched,
-        toWatch: user.toWatch,
+        watched: watched,
+        toWatch: toWatch,
       },
     });
   } catch (error) {
